@@ -324,6 +324,86 @@
 					/>
 				</FileConfiguration>
 			</File>
+      <File
+				RelativePath="Barman.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+      <File
+				RelativePath="BarmanOwnedStates.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+      <File
+				RelativePath="JoshFaraday.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+      <File
+				RelativePath="JoshFaradayOwnedStates.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
 			<File
 				RelativePath="MinersWife.cpp"
 				>
@@ -409,16 +489,32 @@
 				RelativePath="MinersWifeOwnedStates.h"
 				>
 			</File>
-			<File
-				RelativePath="..\..\Common\FSM\State.h"
+      <File
+				RelativePath="Barman.h"
+				>
+			</File>
+      <File
+				RelativePath="BarmanOwnedStates.h"
+				>
+			</File>
+      <File
+				RelativePath="JoshFaraday.h"
+				>
+			</File>
+      <File
+				RelativePath="JoshFaradayOwnedStates.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\Common\FSM\StateMachine.h"
+				RelativePath=".\FSM\State.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\Common\Messaging\Telegram.h"
+				RelativePath=".\FSM\StateMachine.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Messaging\Telegram.h"
 				>
 			</File>
 		</Filter>
@@ -426,15 +522,15 @@
 			Name="misc"
 			>
 			<File
-				RelativePath="..\..\Common\misc\ConsoleUtils.h"
+				RelativePath=".\misc\ConsoleUtils.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\Common\ConsoleUtils.h"
+				RelativePath=".\ConsoleUtils.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\Common\Time\CrudeTimer.cpp"
+				RelativePath=".\Time\CrudeTimer.cpp"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -454,19 +550,19 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\Common\Time\CrudeTimer.h"
+				RelativePath=".\Time\CrudeTimer.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\Common\2D\SVector2D.h"
+				RelativePath=".\2D\SVector2D.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\Common\utils.h"
+				RelativePath=".\utils.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\Common\misc\utils.h"
+				RelativePath=".\misc\utils.h"
 				>
 			</File>
 		</Filter>

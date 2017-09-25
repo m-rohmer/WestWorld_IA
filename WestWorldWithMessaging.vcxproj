@@ -127,7 +127,6 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Common\Time\CrudeTimer.cpp" />
     <ClCompile Include="Barman.cpp" />
     <ClCompile Include="BarmanOwnedStates.cpp" />
     <ClCompile Include="BaseGameEntity.cpp" />
@@ -140,31 +139,32 @@
     <ClCompile Include="MinerOwnedStates.cpp" />
     <ClCompile Include="MinersWife.cpp" />
     <ClCompile Include="MinersWifeOwnedStates.cpp" />
+    <ClCompile Include="Time\CrudeTimer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Common\2D\SVector2D.h" />
-    <ClInclude Include="..\..\Common\ConsoleUtils.h" />
-    <ClInclude Include="..\..\Common\FSM\State.h" />
-    <ClInclude Include="..\..\Common\FSM\StateMachine.h" />
-    <ClInclude Include="..\..\Common\Messaging\Telegram.h" />
-    <ClInclude Include="..\..\Common\misc\ConsoleUtils.h" />
-    <ClInclude Include="..\..\Common\misc\utils.h" />
-    <ClInclude Include="..\..\Common\Time\CrudeTimer.h" />
-    <ClInclude Include="..\..\Common\utils.h" />
+    <ClInclude Include="2D\SVector2D.h" />
     <ClInclude Include="Barman.h" />
     <ClInclude Include="BarmanOwnedStates.h" />
     <ClInclude Include="BaseGameEntity.h" />
+    <ClInclude Include="ConsoleUtils.h" />
     <ClInclude Include="EntityManager.h" />
     <ClInclude Include="EntityNames.h" />
+    <ClInclude Include="FSM\State.h" />
+    <ClInclude Include="FSM\StateMachine.h" />
     <ClInclude Include="JoshFaraday.h" />
     <ClInclude Include="JoshFaradayOwnedStates.h" />
     <ClInclude Include="Locations.h" />
     <ClInclude Include="MessageDispatcher.h" />
     <ClInclude Include="MessageTypes.h" />
+    <ClInclude Include="Messaging\Telegram.h" />
     <ClInclude Include="Miner.h" />
     <ClInclude Include="MinerOwnedStates.h" />
     <ClInclude Include="MinersWife.h" />
     <ClInclude Include="MinersWifeOwnedStates.h" />
+    <ClInclude Include="misc\ConsoleUtils.h" />
+    <ClInclude Include="misc\utils.h" />
+    <ClInclude Include="Time\CrudeTimer.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
